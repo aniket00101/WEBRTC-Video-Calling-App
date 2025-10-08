@@ -32,7 +32,6 @@ const Lobby = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-900 flex items-center justify-center px-4">
       <div className="w-full max-w-md">
-        {/* Header Section */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl mb-4 shadow-lg">
             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,14 +46,12 @@ const Lobby = () => {
           </p>
         </div>
 
-        {/* Form Card */}
         <div className="bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 overflow-hidden">
           <div className="bg-gradient-to-r from-slate-700 to-slate-800 px-6 py-4 border-b border-slate-700">
             <h2 className="text-xl font-semibold text-white">Join Room</h2>
           </div>
 
           <form onSubmit={handlesubmitform} className="p-6 space-y-6">
-            {/* Email Input */}
             <div>
               <label htmlFor="email" className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-2">
                 <svg className="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,7 +70,6 @@ const Lobby = () => {
               />
             </div>
 
-            {/* Room Input */}
             <div>
               <label htmlFor="room" className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-2">
                 <svg className="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -92,7 +88,6 @@ const Lobby = () => {
               />
             </div>
 
-            {/* Submit Button */}
             <button 
               type="submit"
               className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 group"
@@ -105,7 +100,6 @@ const Lobby = () => {
           </form>
         </div>
 
-        {/* Footer Info */}
         <div className="mt-6 text-center">
           <p className="text-gray-500 text-xs">
             Your connection is secure and encrypted
